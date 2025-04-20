@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.img1{
+    background-image: url("dow.jpg");
+   height:150vh;
+   width:100%;
+   background-size: contain;
+   background-attachment: fixed;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.img2{
+    background-image: url("dow2.avif");
+ height:150vh;
+    width:100%;
+    background-attachment:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.img3{
+    background-image: url("dow3.webp");
+ height:170vh;
+    width:100%;
+  background-size: contain;
+  background-attachment:fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.text{
+    height:310px;
+    width:100%;
+    background-color:rgba(14, 99, 71, 0.523);
+    color:rgb(180, 79, 12);
+    font-size:30px;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   font-weight:bold;
+   margin-top:40px;
+}
