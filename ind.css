@@ -5,29 +5,31 @@
 
 
 .img1{
-    background-image: url("dow.jpg");
+    background-image: url("img4.webp");
    height:150vh;
    width:100%;
-   background-size: contain;
+   object-fit:cover;
    background-attachment: fixed;
    display:flex;
    align-items:center;
    justify-content:center;
 }
 .img2{
-    background-image: url("dow2.avif");
- height:150vh;
+    background-image: url("img1.jpeg");
+ height:100vh;
     width:100%;
-    background-attachment:fixed;
+    object-fit:cover;
+    background-attachment:local,fixed;
     display:flex;
     align-items:center;
     justify-content:center;
+   
 }
 .img3{
-    background-image: url("dow3.webp");
+    background-image: url("img2.jpg");
  height:170vh;
     width:100%;
-  background-size: contain;
+    object-fit:cover;
   background-attachment:fixed;
   display:flex;
   align-items:center;
