@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.img1{
+    background-image: url("img4.webp");
+   height:150vh;
+   width:100%;
+   object-fit:cover;
+   background-attachment: fixed;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+.img2{
+    background-image: url("img1.jpeg");
+ height:100vh;
+    width:100%;
+    object-fit:cover;
+    background-attachment:local,fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+}
+.img3{
+    background-image: url("img2.jpg");
+ height:170vh;
+    width:100%;
+    object-fit:cover;
+  background-attachment:fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.text{
+    height:310px;
+    width:100%;
+    background-color:rgba(14, 99, 71, 0.523);
+    color:rgb(180, 79, 12);
+    font-size:30px;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   font-weight:bold;
+   margin-top:40px;
+}
